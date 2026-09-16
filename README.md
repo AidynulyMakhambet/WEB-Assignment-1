@@ -41,10 +41,10 @@ The objective of this assignment is to establish basic to intermediate proficien
 ![HTML Basics](Screenshots/image.png)
 
 ### 2. Table, Emoji Paragraph, and Input Form
-![Intermediate HTML](screenshots/part2_tables_forms.png)
+![Intermediate HTML](Screenshots/image2.png)
 
 ### 3. CSS Styling, Box Model & Positioning Layouts
-![CSS Layouts](screenshots/part3_css_styling.png)
+![CSS Layouts](Screenshots/image3.png)
 
 ---
 
