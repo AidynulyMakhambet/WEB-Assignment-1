@@ -38,7 +38,7 @@ The objective of this assignment is to establish basic to intermediate proficien
 ## Screenshots of Required Tasks
 
 ### 1. HTML Boilerplate, Headings & Lists
-![HTML Basics]((./Screenshots/image.png))
+![HTML Basics]((Screenshots/image.png))
 
 ### 2. Table, Emoji Paragraph, and Input Form
 ![Intermediate HTML](screenshots/part2_tables_forms.png)
