@@ -1,3 +1,5 @@
+Site is available on https://aidynulymakhambet.github.io/WEB-Assignment-1
+
 # Assignment #1: HTML & CSS Basics
 
 **Name:** [Your Name]  
