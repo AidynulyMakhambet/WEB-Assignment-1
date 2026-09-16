@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Step 0 & 15: Title and Favicon -->
+    <title>My First Webpage</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Step 12: External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Step 11: Internal CSS -->
+    <style>
+        .internal-demo {
+            font-family: Arial, sans-serif;
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body class="internal-demo">
+
+    <!-- Step 16: HTML Divs (Header Section) -->
+    <div class="header-section">
+        <!-- Step 1 & 14: Headings & ID Selector -->
+        <h1 id="main-heading">Aidynuly Makhambet</h1>
+        <h2>Computer Science - Web Technologies</h2>
+        <h3>About Me</h3>
+    </div>
+
+    <!-- Step 16: Main Content Container -->
+    <div class="main-container">
+        <!-- Step 1 & 10: Paragraph & Inline CSS -->
+        <p style="color: blue;">
+            Hello! I am a first-year Computer Science student learning modern front-end web development.
+        </p>
+
+        <!-- Step 7 & 14: Emojis and Class Selector -->
+        <p class="highlight">
+            My mood while working on this code today: 🚀 💻 😎
+        </p>
+
+        <!-- Step 3: Images & Links -->
+        <div class="media-container">
+            <img src="https://headsupfortails.com/cdn/shop/articles/Banner_5bca17ff-18ca-40a0-87ce-ce7acc685a03.jpg?v=1785823528" alt="Profile Photo" class="profile-img">
+            <p>
+                Visit my favorite resources: 
+                <a href="https://github.com" target="_blank">GitHub</a> | 
+                <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+            </p>
+        </div>
+
+        <!-- Step 2: HTML Lists -->
+        <div class="lists-section">
+            <h3>My Hobbies (Ordered List)</h3>
+            <ol>
+                <li>Low-level programming and logic analysis</li>
+                <li>Gaming and game physics exploration</li>
+                <li>Cycling around the city</li>
+            </ol>
+
+            <h3>Favorite Websites (Unordered List)</h3>
+            <ul>
+                <li><a href="https://google.com">Google</a></li>
+                <li><a href="https://youtube.com">YouTube</a></li>
+                <li><a href="https://github.com">GitHub</a></li>
+            </ul>
+        </div>
+
+        <!-- Step 4: HTML Button -->
+        <div class="button-section">
+            <button type="button">Click Me</button>
+        </div>
+
+        <!-- Step 5: Table (Weekly Class Schedule) -->
+        <h3>Weekly Class Schedule</h3>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Technologies</td>
+                    <td>Monday</td>
+                    <td>09:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Linear Algebra</td>
+                    <td>Wednesday</td>
+                    <td>11:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Database Systems</td>
+                    <td>Friday</td>
+                    <td>02:00 PM</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Step 8: HTML Form -->
+        <h3>Contact & Preferences Form</h3>
+        <form class="user-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required><br><br>
+
+            <label for="favcolor">Favorite Color:</label><br>
+            <input type="color" id="favcolor" name="favcolor" value="#3182ce"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Step 18: CSS Positioning Demo -->
+        <h3>CSS Positioning Demonstration</h3>
+        <div class="pos-static">Static Position Box (Default layout)</div>
+        <div class="pos-relative">Relative Position Box (Shifted down/right)</div>
+        <div class="pos-absolute-wrapper">
+            <div class="pos-absolute">Absolute Position Box (Pinned to container corner)</div>
+        </div>
+
+        <!-- Step 20: Float and Clear Demo -->
+        <h3>CSS Float & Clear Layout</h3>
+        <div class="float-container">
+            <div class="float-box float-left">Floated Left Box</div>
+            <div class="float-box float-right">Floated Right Box</div>
+            <div class="clear-fix"></div>
+        </div>
+    </div>
+
+    <!-- Step 16: Footer Div -->
+    <div class="footer-section">
+        <p>&copy; 2026 Web Technologies Practice. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

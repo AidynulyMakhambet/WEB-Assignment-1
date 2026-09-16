@@ -1,0 +1,139 @@
+/* Step 13, 14, 17, 19: Element, ID, Class Selectors & Box Model Units */
+
+/* Element Selector */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* ID Selector (#main-heading) */
+#main-heading {
+    color: #1e293b;
+    font-size: 2.2rem; /* rem sizing unit */
+    margin-bottom: 5px;
+}
+
+/* Class Selector (.highlight) */
+.highlight {
+    background-color: #fef08a;
+    padding: 12px; /* Box model padding */
+    border-left: 5px solid #eab308; /* Box model border */
+    font-weight: bold;
+}
+
+/* Step 16 & 17: Div Containers & Box Model */
+.header-section {
+    background-color: #e2e8f0;
+    padding: 24px;
+    border-bottom: 2px solid #cbd5e1;
+    text-align: center;
+}
+
+.main-container {
+    width: 85%; /* percentage sizing unit */
+    max-width: 900px;
+    margin: 20px auto; /* Box model centering margin */
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+
+.profile-img {
+    width: 150px; /* px sizing unit */
+    border: 3px solid #3b82f6;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Step 5 Styling: Tables */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.schedule-table th, 
+.schedule-table td {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    text-align: left;
+}
+
+.schedule-table th {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+/* Step 18: CSS Positioning */
+.pos-static {
+    position: static;
+    background: #f1f5f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cbd5e1;
+}
+
+.pos-relative {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background: #e2e8f0;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #94a3b8;
+}
+
+.pos-absolute-wrapper {
+    position: relative;
+    height: 70px;
+    background: #f8fafc;
+    border: 1px dashed #94a3b8;
+    margin-bottom: 20px;
+}
+
+.pos-absolute {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background: #0f172a;
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+/* Step 20: Float & Clear */
+.float-container {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    background: #fafafa;
+}
+
+.float-left {
+    float: left;
+    width: 45%;
+    background-color: #dcfce7;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.float-right {
+    float: right;
+    width: 45%;
+    background-color: #dbeafe;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    margin-top: 30px;
+}
